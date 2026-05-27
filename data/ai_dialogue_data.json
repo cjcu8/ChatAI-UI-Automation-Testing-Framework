@@ -1,0 +1,17 @@
+[
+  {
+    "text": "你是谁？",
+    "assert_text": "not_empty",
+    "png_name": "model_response1.png"
+  },
+  {
+    "text": "只回复，'WEB UI自动化测试'，不要回答其他内容？",
+    "assert_text": "自动化测试",
+    "png_name": "model_response2.png"
+  },
+  {
+    "text": "只回复，'playwright'，不要回答其他内容？",
+    "assert_text": "playwright",
+    "png_name": "model_response3.png"
+  }
+]

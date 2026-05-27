@@ -1,0 +1,26 @@
+[
+  {
+    "email": "",
+    "password": "AaAa123456",
+    "email_or_password_error": "请输入电子邮箱",
+    "locator_method": "email_empty_error"
+  },
+  {
+    "email": "admin@163",
+    "password": "AaAaAaAa!!",
+    "email_or_password_error": "请输入正确的电子邮箱格式",
+    "locator_method": "email_format_error"
+  },
+  {
+    "email": "test2@163.com",
+    "password": "",
+    "email_or_password_error": "请输入密码",
+    "locator_method": "password_empty_error"
+  },
+  {
+    "email": "test2@163.com",
+    "password": "A1231AA23",
+    "email_or_password_error": "密码至少包含大写字母、小写字母、数字、特殊符号中的3类",
+    "locator_method": "password_error"
+  }
+]

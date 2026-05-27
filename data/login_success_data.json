@@ -1,0 +1,30 @@
+[
+  {
+    "email": "admin@163.com",
+    "password": "AaAa123456",
+    "attribute_name": "data-placeholder",
+    "attribute_value": "有什么我能帮您的吗？",
+    "title": "Open WebUI"
+  },
+  {
+    "email": "test1@163.com",
+    "password": "AaAaAaAa!!",
+    "attribute_name": "data-placeholder",
+    "attribute_value": "有什么我能帮您的吗？",
+    "title": "Open WebUI"
+  },
+  {
+    "email": "test2@163.com",
+    "password": "AA123456!!",
+    "attribute_name": "data-placeholder",
+    "attribute_value": "有什么我能帮您的吗？",
+    "title": "Open WebUI"
+  },
+  {
+    "email": "test3@163.com",
+    "password": "Aa123456!!",
+    "attribute_name": "data-placeholder",
+    "attribute_value": "有什么我能帮您的吗？",
+    "title": "Open WebUI"
+  }
+]
