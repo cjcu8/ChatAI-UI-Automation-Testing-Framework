@@ -143,7 +143,15 @@ def pytest_runtest_makereport(item, call):
                 current_time = datetime.now().strftime("%Y%m%d_%H%M%S")
                 screenshot_path = screenshot_dir / f"fail_{current_time}.png"
 
+                # 1. 保存失败截图到本地
                 page.screenshot(path=str(screenshot_path), full_page=True)
+
+                # 2. 将失败截图添加到 Allure 报告
+                allure.attach.file(
+                    str(screenshot_path),
+                    name="失败截图",
+                    attachment_type=allure.attachment_type.PNG
+                )
 
                 logs.error(f"失败截图已保存：{screenshot_path}")
 
